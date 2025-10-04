@@ -1,5 +1,5 @@
 """
-RETURN DRIVERS USING PRINCIPAL COMPONENT ANALYSIS
+RETURN DRIVERS USING PRINCIPAL COMPONENT ANALYSIS 
 Fetches stock price data, computes returns, performs PCA, and saves factor returns and exposures.
 """
 
@@ -97,3 +97,4 @@ factor_exposures.to_csv(f"factor_exposures.csv")
 
 
 print("PCA analysis complete! CSVs and plot saved.")
+
